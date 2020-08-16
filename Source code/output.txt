@@ -1,0 +1,133 @@
+Buildfile: C:\DOCUME~1\ADM~1.LOC\LOCALS~1\Temp\And29.tmp\build.xml
+
+-set-mode-check:
+
+-set-debug-files:
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 22.0.0
+ [checkenv] Installed at C:\Android-sdk-MMF2-r15
+
+-setup:
+     [echo] Project Name: RuntimeAndroid
+  [gettype] Project Type: Application
+
+-set-debug-mode:
+
+-debug-obfuscation-check:
+
+-pre-build:
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 19.0.0
+     [echo] Resolving Build Target for RuntimeAndroid...
+[gettarget] Project Target:   Android 4.0
+[gettarget] API level:        14
+     [echo] ----------
+     [echo] Creating output directories if needed...
+    [mkdir] Created dir: C:\DOCUME~1\ADM~1.LOC\LOCALS~1\Temp\And29.tmp\bin
+    [mkdir] Created dir: C:\DOCUME~1\ADM~1.LOC\LOCALS~1\Temp\And29.tmp\bin\res
+    [mkdir] Created dir: C:\DOCUME~1\ADM~1.LOC\LOCALS~1\Temp\And29.tmp\bin\rsObj
+    [mkdir] Created dir: C:\DOCUME~1\ADM~1.LOC\LOCALS~1\Temp\And29.tmp\bin\rsLibs
+    [mkdir] Created dir: C:\DOCUME~1\ADM~1.LOC\LOCALS~1\Temp\And29.tmp\bin\classes
+    [mkdir] Created dir: C:\DOCUME~1\ADM~1.LOC\LOCALS~1\Temp\And29.tmp\bin\dexedLibs
+     [echo] ----------
+     [echo] Resolving Dependencies for RuntimeAndroid...
+[dependency] Library dependencies:
+[dependency] No Libraries
+[dependency] 
+[dependency] ------------------
+[dependency] API<=15: Adding annotations.jar to the classpath.
+     [echo] ----------
+     [echo] Building Libraries with 'debug'...
+   [subant] No sub-builds to iterate on
+
+-code-gen:
+[mergemanifest] Merging AndroidManifest files into one.
+[mergemanifest] Manifest merger disabled. Using project manifest only.
+     [echo] Handling aidl files...
+     [aidl] No AIDL files to compile.
+     [echo] ----------
+     [echo] Handling RenderScript files...
+     [echo] ----------
+     [echo] Handling Resources...
+     [aapt] Generating resource IDs...
+     [echo] ----------
+     [echo] Handling BuildConfig class...
+[buildconfig] Generating BuildConfig class.
+
+-pre-compile:
+
+-compile:
+    [javac] Compiling 275 source files to C:\DOCUME~1\ADM~1.LOC\LOCALS~1\Temp\And29.tmp\bin\classes
+
+-post-compile:
+
+-obfuscate:
+
+-dex:
+      [dex] input: C:\DOCUME~1\ADM~1.LOC\LOCALS~1\Temp\And29.tmp\bin\classes
+      [dex] input: C:\Android-sdk-MMF2-r15\tools\support\annotations.jar
+      [dex] input: C:\DOCUME~1\ADM~1.LOC\LOCALS~1\Temp\And29.tmp\libs\ouya-sdk.jar
+      [dex] input: C:\DOCUME~1\ADM~1.LOC\LOCALS~1\Temp\And29.tmp\libs\GoogleAdMobAdsSdk-4.3.1.jar
+      [dex] Pre-Dexing C:\Android-sdk-MMF2-r15\tools\support\annotations.jar -> annotations-00a62c3e666021320d189a6fc14a72f4.jar
+      [dex] Pre-Dexing C:\DOCUME~1\ADM~1.LOC\LOCALS~1\Temp\And29.tmp\libs\ouya-sdk.jar -> ouya-sdk-f3b6a3cdadd708d55e46a7897f0ebb9c.jar
+      [dex] Pre-Dexing C:\DOCUME~1\ADM~1.LOC\LOCALS~1\Temp\And29.tmp\libs\GoogleAdMobAdsSdk-4.3.1.jar -> GoogleAdMobAdsSdk-4.3.1-8cee84820f51cccbcef9dc225248622e.jar
+      [dex] Converting compiled files and external libraries into C:\DOCUME~1\ADM~1.LOC\LOCALS~1\Temp\And29.tmp\bin\classes.dex...
+       [dx] Merged dex A (316 defs/510,0KiB) with dex B (2 defs/1,1KiB). Result is 318 defs/644,4KiB. Took 0,1s
+       [dx] Merged dex A (318 defs/644,4KiB) with dex B (119 defs/98,7KiB). Result is 437 defs/977,5KiB. Took 0,0s
+       [dx] Merged dex A (437 defs/977,5KiB) with dex B (62 defs/82,8KiB). Result is 499 defs/1467,5KiB. Took 0,0s
+
+-crunch:
+   [crunch] Crunching PNG Files in source dir: C:\DOCUME~1\ADM~1.LOC\LOCALS~1\Temp\And29.tmp\res
+   [crunch] To destination dir: C:\DOCUME~1\ADM~1.LOC\LOCALS~1\Temp\And29.tmp\bin\res
+   [crunch] Processing image to cache: C:\DOCUME~1\ADM~1.LOC\LOCALS~1\Temp\And29.tmp\res\drawable-hdpi\launcher.png => C:\DOCUME~1\ADM~1.LOC\LOCALS~1\Temp\And29.tmp\bin\res\drawable-hdpi\launcher.png
+   [crunch]   (processed image to cache entry C:\DOCUME~1\ADM~1.LOC\LOCALS~1\Temp\And29.tmp\bin\res\drawable-hdpi\launcher.png: 77% size of source)
+   [crunch] Processing image to cache: C:\DOCUME~1\ADM~1.LOC\LOCALS~1\Temp\And29.tmp\res\drawable-ldpi\launcher.png => C:\DOCUME~1\ADM~1.LOC\LOCALS~1\Temp\And29.tmp\bin\res\drawable-ldpi\launcher.png
+   [crunch]   (processed image to cache entry C:\DOCUME~1\ADM~1.LOC\LOCALS~1\Temp\And29.tmp\bin\res\drawable-ldpi\launcher.png: 0% size of source)
+   [crunch] Processing image to cache: C:\DOCUME~1\ADM~1.LOC\LOCALS~1\Temp\And29.tmp\res\drawable-mdpi\launcher.png => C:\DOCUME~1\ADM~1.LOC\LOCALS~1\Temp\And29.tmp\bin\res\drawable-mdpi\launcher.png
+   [crunch]   (processed image to cache entry C:\DOCUME~1\ADM~1.LOC\LOCALS~1\Temp\And29.tmp\bin\res\drawable-mdpi\launcher.png: 75% size of source)
+   [crunch] Processing image to cache: C:\DOCUME~1\ADM~1.LOC\LOCALS~1\Temp\And29.tmp\res\drawable-xhdpi\launcher.png => C:\DOCUME~1\ADM~1.LOC\LOCALS~1\Temp\And29.tmp\bin\res\drawable-xhdpi\launcher.png
+   [crunch]   (processed image to cache entry C:\DOCUME~1\ADM~1.LOC\LOCALS~1\Temp\And29.tmp\bin\res\drawable-xhdpi\launcher.png: 95% size of source)
+   [crunch] Processing image to cache: C:\DOCUME~1\ADM~1.LOC\LOCALS~1\Temp\And29.tmp\res\drawable\fire1d.png => C:\DOCUME~1\ADM~1.LOC\LOCALS~1\Temp\And29.tmp\bin\res\drawable\fire1d.png
+   [crunch]   (processed image to cache entry C:\DOCUME~1\ADM~1.LOC\LOCALS~1\Temp\And29.tmp\bin\res\drawable\fire1d.png: 0% size of source)
+   [crunch] Processing image to cache: C:\DOCUME~1\ADM~1.LOC\LOCALS~1\Temp\And29.tmp\res\drawable\fire1u.png => C:\DOCUME~1\ADM~1.LOC\LOCALS~1\Temp\And29.tmp\bin\res\drawable\fire1u.png
+   [crunch]   (processed image to cache entry C:\DOCUME~1\ADM~1.LOC\LOCALS~1\Temp\And29.tmp\bin\res\drawable\fire1u.png: 0% size of source)
+   [crunch] Processing image to cache: C:\DOCUME~1\ADM~1.LOC\LOCALS~1\Temp\And29.tmp\res\drawable\fire2d.png => C:\DOCUME~1\ADM~1.LOC\LOCALS~1\Temp\And29.tmp\bin\res\drawable\fire2d.png
+   [crunch]   (processed image to cache entry C:\DOCUME~1\ADM~1.LOC\LOCALS~1\Temp\And29.tmp\bin\res\drawable\fire2d.png: 0% size of source)
+   [crunch] Processing image to cache: C:\DOCUME~1\ADM~1.LOC\LOCALS~1\Temp\And29.tmp\res\drawable\fire2u.png => C:\DOCUME~1\ADM~1.LOC\LOCALS~1\Temp\And29.tmp\bin\res\drawable\fire2u.png
+   [crunch]   (processed image to cache entry C:\DOCUME~1\ADM~1.LOC\LOCALS~1\Temp\And29.tmp\bin\res\drawable\fire2u.png: 0% size of source)
+   [crunch] Processing image to cache: C:\DOCUME~1\ADM~1.LOC\LOCALS~1\Temp\And29.tmp\res\drawable\joyback.png => C:\DOCUME~1\ADM~1.LOC\LOCALS~1\Temp\And29.tmp\bin\res\drawable\joyback.png
+   [crunch]   (processed image to cache entry C:\DOCUME~1\ADM~1.LOC\LOCALS~1\Temp\And29.tmp\bin\res\drawable\joyback.png: 42% size of source)
+   [crunch] Processing image to cache: C:\DOCUME~1\ADM~1.LOC\LOCALS~1\Temp\And29.tmp\res\drawable\joyfront.png => C:\DOCUME~1\ADM~1.LOC\LOCALS~1\Temp\And29.tmp\bin\res\drawable\joyfront.png
+   [crunch]   (processed image to cache entry C:\DOCUME~1\ADM~1.LOC\LOCALS~1\Temp\And29.tmp\bin\res\drawable\joyfront.png: 0% size of source)
+   [crunch] Processing image to cache: C:\DOCUME~1\ADM~1.LOC\LOCALS~1\Temp\And29.tmp\res\drawable\launcher.png => C:\DOCUME~1\ADM~1.LOC\LOCALS~1\Temp\And29.tmp\bin\res\drawable\launcher.png
+   [crunch]   (processed image to cache entry C:\DOCUME~1\ADM~1.LOC\LOCALS~1\Temp\And29.tmp\bin\res\drawable\launcher.png: 0% size of source)
+   [crunch] Processing image to cache: C:\DOCUME~1\ADM~1.LOC\LOCALS~1\Temp\And29.tmp\res\drawable\menu.png => C:\DOCUME~1\ADM~1.LOC\LOCALS~1\Temp\And29.tmp\bin\res\drawable\menu.png
+   [crunch]   (processed image to cache entry C:\DOCUME~1\ADM~1.LOC\LOCALS~1\Temp\And29.tmp\bin\res\drawable\menu.png: 0% size of source)
+   [crunch] Crunched 12 PNG files to update cache
+
+-package-resources:
+     [aapt] Creating full resource package...
+     [aapt] Warning: AndroidManifest.xml already defines debuggable (in http://schemas.android.com/apk/res/android); using existing value in manifest.
+
+-package:
+[apkbuilder] Current build type is different than previous build: forced apkbuilder run.
+[apkbuilder] Creating RuntimeAndroid-debug-unaligned.apk and signing it with a debug key...
+
+-post-package:
+
+-do-debug:
+ [zipalign] Running zip align on final apk...
+     [echo] Debug Package: C:\DOCUME~1\ADM~1.LOC\LOCALS~1\Temp\And29.tmp\bin\RuntimeAndroid-debug.apk
+[propertyfile] Creating new property file: C:\DOCUME~1\ADM~1.LOC\LOCALS~1\Temp\And29.tmp\bin\build.prop
+[propertyfile] Updating property file: C:\DOCUME~1\ADM~1.LOC\LOCALS~1\Temp\And29.tmp\bin\build.prop
+[propertyfile] Updating property file: C:\DOCUME~1\ADM~1.LOC\LOCALS~1\Temp\And29.tmp\bin\build.prop
+[propertyfile] Updating property file: C:\DOCUME~1\ADM~1.LOC\LOCALS~1\Temp\And29.tmp\bin\build.prop
+
+-post-build:
+
+debug:
+
+BUILD SUCCESSFUL
+Total time: 6 seconds
