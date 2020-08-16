@@ -1,0 +1,2 @@
+set solib-search-path /Users/james/clickteam/android/obj/local/x86
+directory /Users/james/android-sdk/ndk/platforms/android-14/arch-x86/usr/include /Users/james/android-sdk/ndk/sources/cxx-stl/system/include /Users/james/clickteam/android/jni
